@@ -43,7 +43,7 @@ export default function TodoApp() {
             onChange={() => handleCompletedTodo(todo.id)}
           />
         ) : (
-          <div></div>
+          <></>
         )
       );
     } else {
